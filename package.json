@@ -1,0 +1,26 @@
+{
+  "name": "server-product-site",
+  "version": "1.0.0",
+  "description": "the second part of a pet-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bassb0osted/server-product-site.git"
+  },
+  "author": "Ustenko Volodymyr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bassb0osted/server-product-site/issues"
+  },
+  "homepage": "https://github.com/bassb0osted/server-product-site#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.3",
+    "nodemon": "^2.0.15"
+  }
+}
