@@ -11,6 +11,8 @@ router.get('/items', ItemController.getAll);
 router.delete('/items', ItemController.delete);
 router.put('/items', ItemController.update);
 
+router.get('/items/img/:imgName', ItemController.getImg);
+
 router.post('/subcategories', SubcategoryController.create);
 router.get('/subcategories', SubcategoryController.getAll);
 router.delete('/subcategories', SubcategoryController.delete);
